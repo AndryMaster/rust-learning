@@ -1,4 +1,4 @@
-﻿pub fn f1() {
+﻿pub fn f1_tuple() {
     let user: (&str, u8, f64) = ("Tom", 36, 1.78);
     let (name, age, height) = user;
 
@@ -17,7 +17,7 @@
     println!("People Name: {}", people.0);
 }
 
-pub fn f2() {
+pub fn f2_array() {
     let numbers: [i32; 5] = [34, 50, 25, 100, 65];
     println!("{:?}", numbers);
     for number in &numbers { print!("{} ", number); }
@@ -50,7 +50,7 @@ pub fn f2() {
     }
 }
 
-pub fn f3() {
+pub fn f3_struct() {
     struct Person {
         name: String,
         age: u8,
@@ -77,7 +77,7 @@ pub fn f3() {
     // print_person(tom);  // ! Ошибка - функция main уже не владеет структурой Person
 }
 
-pub fn f4() {
+pub fn f4_enum() {
     enum Season {
         Winter,
         Spring,

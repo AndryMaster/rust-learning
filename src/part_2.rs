@@ -1,10 +1,10 @@
-﻿pub fn f1() {
+﻿pub fn f1_start() {
     let age: i32 = 123;
     let name = "Tom";
     println!("Name: {}, Age: {}", name, age);
 }
 
-pub fn f2() {
+pub fn f2_let_type() {
     let mut a = 52;
     println!("a: {}", a);
     a = 25;
@@ -26,7 +26,7 @@ pub fn f2() {
     let b: bool = false;
 }
 
-pub fn f3() {
+pub fn f3_if_match() {
     let num = 123;
     if num < 0 {
         println!("number < 0");
@@ -48,7 +48,7 @@ pub fn f3() {
     }
 }
 
-pub fn f4() {
+pub fn f4_loops() {
     // loop {
     //     println!("Hello, world!");
     //     println!("Hello, ANDREY!");
@@ -66,7 +66,7 @@ pub fn f4() {
 
 }
 
-pub fn f5() {
+pub fn f5_fn() {
     fn square(n: i32) -> i32
     {
         let square = n * n;
@@ -97,12 +97,12 @@ pub fn f5() {
     hello();
 }
 
-pub fn f6() {
+pub fn f6_const() {
     const PI: f32 = 3.141592653589793;  // std::f32::consts::PI
     println!("PI: {}", PI);
 }
 
-pub fn f7() {
+pub fn f7_fn2() {
     fn do_operation(a: i32, b: i32, operation: fn(i32, i32) -> i32) {
         let result = operation(a, b);
         println!("result: {}", result);
