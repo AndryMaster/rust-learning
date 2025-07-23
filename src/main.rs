@@ -1,6 +1,9 @@
 mod part_2;
 mod part_3;
 mod part_4;
+mod part_5_1;
+mod part_5_2;
+
 
 fn main() {
     println!("Hello, world!");
@@ -18,10 +21,19 @@ fn main() {
     // part_3::f3_struct();
     // part_3::f4_enum();
 
-    part_4::f1_owner();
-    part_4::f2_reference();
-    part_4::f3_return_ref();
-    part_4::f4_mut_reference();
-    part_4::f5_owner_2();
-    part_4::f6_owner_3();
+    // part_4::f1_owner();
+    // part_4::f2_reference();
+    // part_4::f3_return_ref();
+    // part_4::f4_mut_reference();
+    // part_4::f5_owner_2();
+    // part_4::f6_owner_3();
+
+    part_5_1::f1_impl();
+    part_5_1::f2_trait();
+    part_5_1::f3_trait2();
+    part_5_1::f4_generic();
+    part_5_1::f5_overload();
+    part_5_2::f6_type();
+    part_5_2::f7_type_trait();
+    part_5_2::f8_debug();
 }
