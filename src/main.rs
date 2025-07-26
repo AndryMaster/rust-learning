@@ -4,10 +4,23 @@ mod part_4;
 mod part_5_1;
 mod part_5_2;
 mod part_6;
+mod part_7;
+
+mod rust_2;
+mod rust_3;
+mod rust_4;
+mod rust_7;
+
 
 fn main() {
-    println!("Hello, world!");
+    // println!("Hello, world!");
+    metanit();
+    rust_book();
+}
 
+
+/// https://metanit.com/rust/tutorial/
+fn metanit () {
     // part_2::f1_start();
     // part_2::f2_let_type();
     // part_2::f3_if_match();
@@ -15,7 +28,7 @@ fn main() {
     // part_2::f5_fn();
     // part_2::f6_const();
     // part_2::f7_fn2();
-    //
+
     // part_3::f1_tuple();
     // part_3::f2_array();
     // part_3::f3_struct();
@@ -37,8 +50,19 @@ fn main() {
     // part_5_2::f7_type_trait();
     // part_5_2::f8_debug();
 
-    part_6::f1_alive();
-    part_6::f2_alive_fn();
-    part_6::f3_alive_struct();
-    part_6::f4_alive_static();
+    // part_6::f1_alive();
+    // part_6::f2_alive_fn();
+    // part_6::f3_alive_struct();
+    // part_6::f4_alive_static();
+
+    part_7::f1_vec();
+}
+
+
+/// https://doc.rust-lang.ru/book/
+fn rust_book() {
+    // rust_2::simple_game();
+    // rust_3::f1();
+    // rust_4::f1();
+    // rust_7::f1();
 }
