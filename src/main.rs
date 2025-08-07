@@ -10,7 +10,7 @@ mod rust_2;
 mod rust_3;
 mod rust_4;
 mod rust_7;
-
+mod rust_8;
 
 fn main() {
     // println!("Hello, world!");
@@ -55,7 +55,15 @@ fn metanit () {
     // part_6::f3_alive_struct();
     // part_6::f4_alive_static();
 
-    part_7::f1_vec();
+    // part_7::f1_vec();
+    // part_7::f2_vec();
+    // part_7::f3_vec();
+    // part_7::f4_string();
+    // part_7::f5_string();
+    // part_7::f6_string();
+    part_7::f6_hashmap();
+    part_7::f7_hashset();
+    part_7::f8_iterator();
 }
 
 
@@ -65,4 +73,10 @@ fn rust_book() {
     // rust_3::f1();
     // rust_4::f1();
     // rust_7::f1();
+    // rust_8::f1_vec();
+    // rust_8::f2_vec();
+    // rust_8::f3_vec();
+    // rust_8::f4_string();
+    // rust_8::f5_hashmap();
+    // rust_8::f6_hashmap();
 }
