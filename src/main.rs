@@ -11,6 +11,9 @@ mod rust_3;
 mod rust_4;
 mod rust_7;
 mod rust_8;
+mod rust_9;
+
+
 
 fn main() {
     // println!("Hello, world!");
@@ -61,9 +64,10 @@ fn metanit () {
     // part_7::f4_string();
     // part_7::f5_string();
     // part_7::f6_string();
-    part_7::f6_hashmap();
-    part_7::f7_hashset();
-    part_7::f8_iterator();
+    // part_7::f6_hashmap();
+    // part_7::f7_hashset();
+    // part_7::f8_iterator();
+
 }
 
 
@@ -79,4 +83,6 @@ fn rust_book() {
     // rust_8::f4_string();
     // rust_8::f5_hashmap();
     // rust_8::f6_hashmap();
+    rust_9::f1_panic();
+    // rust_9::f2_result();
 }
