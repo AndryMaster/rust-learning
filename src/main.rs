@@ -13,6 +13,7 @@ mod rust_7;
 mod rust_8;
 mod rust_9;
 mod rust_10;
+mod rust_11;
 
 fn main() {
     // println!("Hello, world!");
@@ -84,6 +85,6 @@ fn rust_book() {
     // rust_8::f6_hashmap();
     // rust_9::f1_panic();
     // rust_9::f2_result();
-    rust_10::f1_generic();
-    rust_10::f2_lifetime();
+    // rust_10::f1_generic();
+    // rust_10::f2_lifetime();
 }

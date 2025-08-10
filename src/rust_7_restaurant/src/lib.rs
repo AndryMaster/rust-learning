@@ -57,3 +57,33 @@ mod customer {
         Salad
     }
 }
+
+
+
+
+
+
+/// ## Rust 11 (DocTest)
+/// Обычно документационные комментарии могут содержать секции "Examples", "Panics" and "Failures".
+///
+/// Следующая функция делит два числа.
+///
+/// # Examples
+///
+/// ```
+/// let result = rust_7_restaurant::squared_number(5);
+/// assert_eq!(result, 25);
+/// ```
+///
+/// # Panics
+///
+/// Функция паникует, если второй аргумент равен нулю.
+///
+/// ```rust,should_panic
+/// // паникует ...
+/// rust_7_restaurant::squared_number(5);
+/// assert!(false)
+/// ```
+pub fn squared_number(x: u32) -> u32 {
+    x * x
+}
