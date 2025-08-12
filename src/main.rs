@@ -14,6 +14,8 @@ mod rust_8;
 mod rust_9;
 mod rust_10;
 mod rust_11;
+mod part_11;
+mod part_12;
 
 fn main() {
     // println!("Hello, world!");
@@ -68,6 +70,17 @@ fn metanit () {
     // part_7::f7_hashset();
     // part_7::f8_iterator();
 
+    // part_11::f1_input();
+
+    // part_12::f1_unsafe();
+    // part_12::f2_ptr();
+    // part_12::f3_fn();
+    // part_12::f3_fn_save();
+    // part_12::f5_static();
+    // part_12::f6_union();
+    part_12::f7_box();
+    part_12::f8_box();
+    part_12::f9_rc();
 }
 
 
@@ -77,14 +90,17 @@ fn rust_book() {
     // rust_3::f1();
     // rust_4::f1();
     // rust_7::f1();
+
     // rust_8::f1_vec();
     // rust_8::f2_vec();
     // rust_8::f3_vec();
     // rust_8::f4_string();
     // rust_8::f5_hashmap();
     // rust_8::f6_hashmap();
+
     // rust_9::f1_panic();
     // rust_9::f2_result();
+
     // rust_10::f1_generic();
     // rust_10::f2_lifetime();
 }
