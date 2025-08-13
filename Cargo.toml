@@ -2,6 +2,11 @@
 name = "rust-learning"
 version = "0.1.0"
 edition = "2024"
+license = "MIT"
+description = "My learning (book & metanit) crate"
 
 [dependencies]
 rand = "0.9.2"
+
+#[profile.dev]
+#opt-level = 3
