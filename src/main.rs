@@ -5,7 +5,6 @@ mod part_5_1;
 mod part_5_2;
 mod part_6;
 mod part_7;
-mod part_13;
 
 
 mod rust_2;
@@ -21,6 +20,7 @@ mod part_12;
 mod rust_13;
 pub mod rust_14;
 mod rust_15;
+mod rust_16;
 
 fn main() {
     // println!("Hello, world!");
@@ -122,5 +122,9 @@ fn rust_book() {
     // rust_15::f2_box();
     // rust_15::f3_ref();
     // rust_15::f4_ref_cycle();
-    rust_15::f5_ref_cycle();
+    // rust_15::f5_ref_cycle();
+
+    rust_16::f1_thread();
+    rust_16::f2_thread_channel();
+    rust_16::f3_thread_mutex();
 }
