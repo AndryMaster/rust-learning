@@ -21,6 +21,9 @@ mod rust_13;
 pub mod rust_14;
 mod rust_15;
 mod rust_16;
+mod rust_18_1;
+mod rust_18_2;
+mod rust_18_3;
 
 fn main() {
     // println!("Hello, world!");
@@ -124,7 +127,11 @@ fn rust_book() {
     // rust_15::f4_ref_cycle();
     // rust_15::f5_ref_cycle();
 
-    rust_16::f1_thread();
-    rust_16::f2_thread_channel();
-    rust_16::f3_thread_mutex();
+    // rust_16::f1_thread();
+    // rust_16::f2_thread_channel();
+    // rust_16::f3_thread_mutex();
+
+    rust_18_1::f1_run();
+    rust_18_2::f2_run();
+    rust_18_3::f3_run();
 }

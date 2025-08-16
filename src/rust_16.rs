@@ -101,4 +101,3 @@ pub fn f3_thread_mutex() {
 
     println!("Result: {}", *counter.lock().unwrap());
 }
-
